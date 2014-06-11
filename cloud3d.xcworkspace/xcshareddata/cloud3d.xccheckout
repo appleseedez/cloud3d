@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD525A40-51DF-47FD-9D91-2455057D64AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cloud3d</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1309B9DB-BE23-4E37-8384-34817B8628AA</key>
+		<string>https://github.com/appleseedez/cloud3d.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cloud3d.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1309B9DB-BE23-4E37-8384-34817B8628AA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/appleseedez/cloud3d.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1309B9DB-BE23-4E37-8384-34817B8628AA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1309B9DB-BE23-4E37-8384-34817B8628AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cloud3d</string>
+		</dict>
+	</array>
+</dict>
+</plist>

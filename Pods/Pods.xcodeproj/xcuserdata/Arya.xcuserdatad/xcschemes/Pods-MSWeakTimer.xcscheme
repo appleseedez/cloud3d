@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "779F4981D04E4B8BA636B3BA"
-               BuildableName = "libPods-GPUImage.a"
-               BlueprintName = "Pods-GPUImage"
+               BlueprintIdentifier = "A883CC22215B4B0F8C2B782E"
+               BuildableName = "libPods-MSWeakTimer.a"
+               BlueprintName = "Pods-MSWeakTimer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

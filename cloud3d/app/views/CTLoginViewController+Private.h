@@ -11,4 +11,6 @@
 @interface CTLoginViewController (Private)
 
 - (IBAction)doLogin:(id)sender;
+
+- (void) prepareUI;
 @end

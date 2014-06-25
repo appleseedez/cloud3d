@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B625CF42F7C411BB37911C6"
-               BuildableName = "libPods-libextobjc.a"
-               BlueprintName = "Pods-libextobjc"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "BAC8EDF41935BEAA0039B9E6"
+               BuildableName = "cloud3d.app"
+               BlueprintName = "cloud3d"
+               ReferencedContainer = "container:cloud3d.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BAC8EE181935BEAA0039B9E6"
+               BuildableName = "cloud3dTests.xctest"
+               BlueprintName = "cloud3dTests"
+               ReferencedContainer = "container:cloud3d.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAC8EDF41935BEAA0039B9E6"
+            BuildableName = "cloud3d.app"
+            BlueprintName = "cloud3d"
+            ReferencedContainer = "container:cloud3d.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -39,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAC8EDF41935BEAA0039B9E6"
+            BuildableName = "cloud3d.app"
+            BlueprintName = "cloud3d"
+            ReferencedContainer = "container:cloud3d.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -48,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BAC8EDF41935BEAA0039B9E6"
+            BuildableName = "cloud3d.app"
+            BlueprintName = "cloud3d"
+            ReferencedContainer = "container:cloud3d.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CTLoginViewController : UIViewController
-
+@property(nonatomic,weak) IBOutlet UIView* frontView;
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2392E09158EC42259E27633D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EFA5C00D343818B486170 /* libPods.a */; };
+		42B1C846195AA896000A8E1E /* CTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1C845195AA896000A8E1E /* CTTextField.m */; };
+		42BDA3D0195A90F40027187C /* libMICloudPub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BDA3CD195A90940027187C /* libMICloudPub.a */; };
 		947B57E0408748708C7F206F /* libPods-cloud3dTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384B11D9C5834C6CAEE0AC0F /* libPods-cloud3dTests.a */; };
 		BA42B608193647B90018F490 /* CTCaseIndexTVC+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = BA42B607193647B90018F490 /* CTCaseIndexTVC+Private.m */; };
 		BA42B60B19364DFC0018F490 /* CTCaseIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA42B60A19364DFC0018F490 /* CTCaseIndexModel.m */; };
@@ -39,11 +41,24 @@
 		BACCFF35194823310041595A /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCFF34194823310041595A /* libstdc++.dylib */; };
 		BACCFF37194823390041595A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCFF36194823390041595A /* libz.dylib */; };
 		BACCFF391948234E0041595A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCFF381948234E0041595A /* libiconv.dylib */; };
-		BACCFF3A194823580041595A /* libMICloudPub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCFF291948217B0041595A /* libMICloudPub.a */; };
 		BADD91F21935D7370087911F /* CTCaseIndexTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD91F11935D7370087911F /* CTCaseIndexTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		42BDA3CC195A90940027187C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BDA3C7195A90940027187C /* MICloudPub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2320D7EE1932E68200DFE10F;
+			remoteInfo = MICloudPub;
+		};
+		42BDA3CE195A90940027187C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BDA3C7195A90940027187C /* MICloudPub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2320D7FE1932E68200DFE10F;
+			remoteInfo = MICloudPubTests;
+		};
 		BAC8EE1E1935BEAA0039B9E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BAC8EDED1935BEAA0039B9E6 /* Project object */;
@@ -51,32 +66,14 @@
 			remoteGlobalIDString = BAC8EDF41935BEAA0039B9E6;
 			remoteInfo = cloud3d;
 		};
-		BACCFF281948217B0041595A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BACCFF231948217B0041595A /* MICloudPub.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2320D7EE1932E68200DFE10F;
-			remoteInfo = MICloudPub;
-		};
-		BACCFF2A1948217B0041595A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BACCFF231948217B0041595A /* MICloudPub.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2320D7FE1932E68200DFE10F;
-			remoteInfo = MICloudPubTests;
-		};
-		BACCFF32194822B80041595A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BACCFF231948217B0041595A /* MICloudPub.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2320D7ED1932E68200DFE10F;
-			remoteInfo = MICloudPub;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		167457798DC84260960BAF95 /* Pods-cloud3dTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloud3dTests.xcconfig"; path = "Pods/Pods-cloud3dTests.xcconfig"; sourceTree = "<group>"; };
 		384B11D9C5834C6CAEE0AC0F /* libPods-cloud3dTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloud3dTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B1C844195AA896000A8E1E /* CTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTextField.h; sourceTree = "<group>"; };
+		42B1C845195AA896000A8E1E /* CTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTextField.m; sourceTree = "<group>"; };
+		42BDA3C7195A90940027187C /* MICloudPub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MICloudPub.xcodeproj; path = "../6-11新包/MICloudPub/MICloudPub.xcodeproj"; sourceTree = "<group>"; };
 		A7706A3DA70440F0A21806FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AB6EFA5C00D343818B486170 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA42B606193647B90018F490 /* CTCaseIndexTVC+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTCaseIndexTVC+Private.h"; sourceTree = "<group>"; };
@@ -119,7 +116,6 @@
 		BACB9CAD194812A800F64664 /* CTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLoginViewController.m; sourceTree = "<group>"; };
 		BACB9CAF1948131C00F64664 /* CTLoginViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTLoginViewController+Private.h"; sourceTree = "<group>"; };
 		BACB9CB01948131C00F64664 /* CTLoginViewController+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTLoginViewController+Private.m"; sourceTree = "<group>"; };
-		BACCFF231948217B0041595A /* MICloudPub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MICloudPub.xcodeproj; path = ../MICloudPub/MICloudPub.xcodeproj; sourceTree = "<group>"; };
 		BACCFF2E194821F10041595A /* MICloudPub+Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MICloudPub+Parser.h"; sourceTree = "<group>"; };
 		BACCFF2F194821F10041595A /* MICloudPub+Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MICloudPub+Parser.m"; sourceTree = "<group>"; };
 		BACCFF311948223E0041595A /* MICloudPub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICloudPub.h; sourceTree = "<group>"; };
@@ -135,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACCFF3A194823580041595A /* libMICloudPub.a in Frameworks */,
+				42BDA3D0195A90F40027187C /* libMICloudPub.a in Frameworks */,
 				BACCFF391948234E0041595A /* libiconv.dylib in Frameworks */,
 				BACCFF37194823390041595A /* libz.dylib in Frameworks */,
 				BACCFF35194823310041595A /* libstdc++.dylib in Frameworks */,
@@ -160,10 +156,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42BDA3C8195A90940027187C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BDA3CD195A90940027187C /* libMICloudPub.a */,
+				42BDA3CF195A90940027187C /* MICloudPubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BAC8EDEC1935BEAA0039B9E6 = {
 			isa = PBXGroup;
 			children = (
-				BACCFF231948217B0041595A /* MICloudPub.xcodeproj */,
+				42BDA3C7195A90940027187C /* MICloudPub.xcodeproj */,
 				BAC8EDFE1935BEAA0039B9E6 /* cloud3d */,
 				BAC8EE201935BEAA0039B9E6 /* cloud3dTests */,
 				BAC8EDF71935BEAA0039B9E6 /* Frameworks */,
@@ -243,15 +248,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BACCFF241948217B0041595A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BACCFF291948217B0041595A /* libMICloudPub.a */,
-				BACCFF2B1948217B0041595A /* MICloudPubTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BACCFF2D194821F10041595A /* sdk */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +301,8 @@
 				BACB9CAD194812A800F64664 /* CTLoginViewController.m */,
 				BACB9CAF1948131C00F64664 /* CTLoginViewController+Private.h */,
 				BACB9CB01948131C00F64664 /* CTLoginViewController+Private.m */,
+				42B1C844195AA896000A8E1E /* CTTextField.h */,
+				42B1C845195AA896000A8E1E /* CTTextField.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -332,7 +330,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				BACCFF33194822B80041595A /* PBXTargetDependency */,
 			);
 			name = cloud3d;
 			productName = cloud3d;
@@ -387,8 +384,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = BACCFF241948217B0041595A /* Products */;
-					ProjectRef = BACCFF231948217B0041595A /* MICloudPub.xcodeproj */;
+					ProductGroup = 42BDA3C8195A90940027187C /* Products */;
+					ProjectRef = 42BDA3C7195A90940027187C /* MICloudPub.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -400,18 +397,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		BACCFF291948217B0041595A /* libMICloudPub.a */ = {
+		42BDA3CD195A90940027187C /* libMICloudPub.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMICloudPub.a;
-			remoteRef = BACCFF281948217B0041595A /* PBXContainerItemProxy */;
+			remoteRef = 42BDA3CC195A90940027187C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BACCFF2B1948217B0041595A /* MICloudPubTests.xctest */ = {
+		42BDA3CF195A90940027187C /* MICloudPubTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MICloudPubTests.xctest;
-			remoteRef = BACCFF2A1948217B0041595A /* PBXContainerItemProxy */;
+			remoteRef = 42BDA3CE195A90940027187C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -514,6 +511,7 @@
 				BACB9CB11948131C00F64664 /* CTLoginViewController+Private.m in Sources */,
 				BAC8EE051935BEAA0039B9E6 /* main.m in Sources */,
 				BA42B60E1936DB210018F490 /* CTCaseVO.m in Sources */,
+				42B1C846195AA896000A8E1E /* CTTextField.m in Sources */,
 				BAC8EE091935BEAA0039B9E6 /* CTAppDelegate.m in Sources */,
 				BABD9D95194083DC00491727 /* CTPreviewVC.m in Sources */,
 				BADD91F21935D7370087911F /* CTCaseIndexTVC.m in Sources */,
@@ -540,11 +538,6 @@
 			isa = PBXTargetDependency;
 			target = BAC8EDF41935BEAA0039B9E6 /* cloud3d */;
 			targetProxy = BAC8EE1E1935BEAA0039B9E6 /* PBXContainerItemProxy */;
-		};
-		BACCFF33194822B80041595A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MICloudPub;
-			targetProxy = BACCFF32194822B80041595A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

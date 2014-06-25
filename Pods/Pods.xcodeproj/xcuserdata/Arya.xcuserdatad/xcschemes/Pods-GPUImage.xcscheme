@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "225BB9BE996A453B9D9D1EE3"
-               BuildableName = "libPods-cloud3dTests-Kiwi.a"
-               BlueprintName = "Pods-cloud3dTests-Kiwi"
+               BlueprintIdentifier = "DD1BCC89F7FA4CE2AFC58A92"
+               BuildableName = "libPods-GPUImage.a"
+               BlueprintName = "Pods-GPUImage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

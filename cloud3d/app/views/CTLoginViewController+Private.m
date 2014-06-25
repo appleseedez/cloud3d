@@ -11,4 +11,6 @@
 @implementation CTLoginViewController (Private)
 - (void)doLogin:(id)sender {
 }
+- (void)prepareUI{
+}
 @end

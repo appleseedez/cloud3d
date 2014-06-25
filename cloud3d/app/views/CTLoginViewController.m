@@ -7,7 +7,7 @@
 //
 
 #import "CTLoginViewController.h"
-
+#import "CTLoginViewController+Private.h"
 @interface CTLoginViewController ()
 
 @end
@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self prepareUI];
 }
 
 - (void)didReceiveMemoryWarning
